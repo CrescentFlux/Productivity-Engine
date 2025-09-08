@@ -1,4 +1,4 @@
-# 2025年第37周 复盘
+# {{date:YYYY}}年第{{date:WW}}周 复盘
 
 > 本周能量值：(1-5⭐) | 本周主题： 
 
@@ -29,9 +29,7 @@
 ## 🔗 本周记录汇总
 ```dataview
 LIST
-FROM "3-Execution-Loop(执行循环)"
-WHERE file.day >= date(2025-09-08) - dur(7 days) AND file.day <= date(2025-09-08)
+FROM "3-Execution-Loop"
+WHERE file.day >= date({{date:YYYY-MM-DD}}) - dur(7 days) AND file.day <= date({{date:YYYY-MM-DD}})
 SORT file.ctime DESC
 ```
-
-[[2025-9-8]]

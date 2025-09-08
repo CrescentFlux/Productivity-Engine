@@ -1,0 +1,343 @@
+{
+  "main": {
+    "id": "92d78709504dad46",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ca1a9d4d2cb94c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7ad956081bc9ed8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3-Execution-Loop(执行循环)/1-Daily-Logbook-每日日志.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1-Daily-Logbook-每日日志"
+            }
+          },
+          {
+            "id": "728830148bbdc848",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6-Zettelkasten(卡片盒子)/原子想法.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "原子想法"
+            }
+          },
+          {
+            "id": "21a98f803671dc21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6-Zettelkasten(卡片盒子)/0-Zettelkasten-Index.md.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "0-Zettelkasten-Index.md"
+            }
+          },
+          {
+            "id": "36ffadf927ff5bcf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Daily-Log.md.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Daily-Log.md"
+            }
+          },
+          {
+            "id": "2757b9ecf01cf3ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3-Execution-Loop(执行循环)/1-Daily-Logbook-每日日志.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1-Daily-Logbook-每日日志"
+            }
+          },
+          {
+            "id": "44d97946bdc109b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Daily-Log.md.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Daily-Log.md"
+            }
+          },
+          {
+            "id": "801e921229e5642e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3-Execution-Loop(执行循环)/0-Script-Planner-冲刺规划.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "0-Script-Planner-冲刺规划"
+            }
+          },
+          {
+            "id": "c0f84f3b37d548ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Daily-Log.md.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Daily-Log.md"
+            }
+          },
+          {
+            "id": "eb2e05e718f8a8d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-Asset-Foundry(资产工坊)/1-Prototype-Projects-原型项目.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1-Prototype-Projects-原型项目"
+            }
+          },
+          {
+            "id": "f410c41a0eccab46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-Asset-Foundry(资产工坊)/MVP实验记录.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MVP实验记录"
+            }
+          },
+          {
+            "id": "b076ca2a1957a7da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-Horizon-Scanning(视野扫描)/3-Intelligence-Sources-高价值英文信息源.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3-Intelligence-Sources-高价值英文信息源"
+            }
+          }
+        ],
+        "currentTab": 10
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9bd5fb73162b5332",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d398f77f201eb08",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ed01e5f4ba8ce3f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "4da74720fffc6678",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#inbox",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "869886788b6ac9f0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "38ed413a45504715",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd130f2ebe140d83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "801603c942092f7e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1-Horizon-Scanning(视野扫描)/3-Intelligence-Sources-高价值英文信息源.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "3-Intelligence-Sources-高价值英文信息源 的反向链接列表"
+            }
+          },
+          {
+            "id": "6c99327a6b2ae58f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1-Horizon-Scanning(视野扫描)/3-Intelligence-Sources-高价值英文信息源.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "3-Intelligence-Sources-高价值英文信息源 的出链列表"
+            }
+          },
+          {
+            "id": "cf4e83cf9f1b50af",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "c886a3be80954271",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1-Horizon-Scanning(视野扫描)/3-Intelligence-Sources-高价值英文信息源.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "3-Intelligence-Sources-高价值英文信息源 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:创建新数据库": false
+    }
+  },
+  "active": "b076ca2a1957a7da",
+  "lastOpenFiles": [
+    "1-Horizon-Scanning(视野扫描)/2-Focus-Areas-聚焦领域.md",
+    "1-Horizon-Scanning(视野扫描)/1-Landscape-Analysis-生态分析.md",
+    "1-Horizon-Scanning(视野扫描)/0-Opportunity-Redar-机会雷达.md",
+    "2-Asset-Foundry(资产工坊)/2-Showcase-作品展示.md",
+    "2-Asset-Foundry(资产工坊)/1-Prototype-Projects-原型项目.md",
+    "2-Asset-Foundry(资产工坊)/0-Capability-Matrix-能力矩阵.md",
+    "1-Horizon-Scanning(视野扫描)/3-Intelligence-Sources-高价值英文信息源.md",
+    "4-Intelligence-Dashboard(情报仪表盘)/0-Performance-Dashboard-效能仪表盘.md",
+    "4-Intelligence-Dashboard(情报仪表盘)/1-ROI-Mterics-投入产出表.md",
+    "3-Execution-Loop(执行循环)/2-Connection-Ledger-人脉账本.md",
+    "3-Execution-Loop(执行循环)/1-Daily-Logbook-每日日志.md",
+    "3-Execution-Loop(执行循环)/0-Script-Planner-冲刺规划.md",
+    "3-Execution-Loop(执行循环)/00-Execution-Index.md.md",
+    "2-Asset-Foundry(资产工坊)/为小白写金融科普文章.md.md",
+    "2-Asset-Foundry(资产工坊)/MVP实验记录.md",
+    "3-Execution-Loop(执行循环)/2025-9-8.md",
+    "Templates/Weekly-Review.md.md",
+    "Templates/Daily-Log.md.md",
+    "6-Zettelkasten(卡片盒子)/0-Zettelkasten-Index.md.md",
+    "Templates/Execution-Index.md.md",
+    "Templates/Zettelkasten-Index.md.md",
+    "6-Zettelkasten(卡片盒子)/原子想法.md",
+    "6-Zettelkasten(卡片盒子)/关于标签的思考.md",
+    "3-Execution-Loop(执行循环)/未命名 1.md",
+    "3-Execution-Loop(执行循环)/未命名.md",
+    "6-Zettelkasten(卡片盒子)/未命名.md",
+    "Templates"
+  ]
+}

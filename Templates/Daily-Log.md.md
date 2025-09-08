@@ -1,4 +1,4 @@
-## 2025-09-08 星期一
+## {{date:YYYY-MM-DD}} {{date:dddd}}
 
 ### 🚀 今日推进 (Today's Progress)
 > 记录今天具体做了什么，链向相关笔记。
