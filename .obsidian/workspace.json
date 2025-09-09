@@ -111,12 +111,96 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "2-Asset-Foundry(资产工坊)/1-Prototype-Projects-原型项目.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1-Prototype-Projects-原型项目"
+            }
+          },
+          {
+            "id": "337074f5f0d55370",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Templates/Daily-Log.md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Daily-Log.md"
+            }
+          },
+          {
+            "id": "4a994d69ddcd6606",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-Asset-Foundry(资产工坊)/1-Prototype-Projects-原型项目.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1-Prototype-Projects-原型项目"
+            }
+          },
+          {
+            "id": "e2db83749b77a6fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-Asset-Foundry(资产工坊)/1-Prototype-Projects-原型项目.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1-Prototype-Projects-原型项目"
+            }
+          },
+          {
+            "id": "31bf8bd2d10f732f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-Asset-Foundry(资产工坊)/PX-01-Persecution Ecosystem-01-动力结构与经济模型分析.md.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PX-01-Persecution Ecosystem-01-动力结构与经济模型分析.md"
+            }
+          },
+          {
+            "id": "5990e7e04f4ac2d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-Asset-Foundry(资产工坊)/0-Capability-Matrix-能力矩阵.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "0-Capability-Matrix-能力矩阵"
+            }
+          },
+          {
+            "id": "ac8a8fdd0d74f259",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-Core-Principles(核心原则)/2-Quantitatiive-Targets-量化指标.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2-Quantitatiive-Targets-量化指标"
             }
           },
           {
@@ -153,16 +237,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-Execution-Loop(执行循环)/2-Connection-Ledger-人脉账本.md",
+                "file": "0-Core-Principles(核心原则)/1-Qualitative-Goals-定性目标.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2-Connection-Ledger-人脉账本"
+              "title": "1-Qualitative-Goals-定性目标"
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -310,34 +394,36 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "b076ca2a1957a7da",
+  "active": "ac8a8fdd0d74f259",
   "lastOpenFiles": [
-    "4-Intelligence-Dashboard(情报仪表盘)/1-ROI-Mterics-投入产出表.md",
-    "0-Core-Principles(核心原则)/2-Quantitatiive-Targets-量化指标.md",
-    "1-Horizon-Scanning(视野扫描)/1-Landscape-Analysis-生态分析.md",
-    "0-Core-Principles(核心原则)/1-Qualitative-Goals-定性目标.md",
-    "0-Core-Principles(核心原则)/0-Personal-Manifesto-个人宣言.md",
-    "4-Intelligence-Dashboard(情报仪表盘)/0-Performance-Dashboard-效能仪表盘.md",
-    "1-Horizon-Scanning(视野扫描)/0-Opportunity-Redar-机会雷达.md",
-    "1-Horizon-Scanning(视野扫描)/2-Focus-Areas-聚焦领域.md",
-    "1-Horizon-Scanning(视野扫描)/3-Intelligence-Sources-高价值英文信息源.md",
-    "6-Zettelkasten(卡片盒子)/0-Zettelkasten-Index.md.md",
-    "2-Asset-Foundry(资产工坊)/为小白写金融科普文章.md.md",
-    "2-Asset-Foundry(资产工坊)/2-Showcase-作品展示.md",
+    "2-Asset-Foundry(资产工坊)/PX-01-系统性与批判性研究-能力矩阵.md",
     "2-Asset-Foundry(资产工坊)/0-Capability-Matrix-能力矩阵.md",
+    "Templates/Capability-Matrix-能力矩阵.md.md",
+    "2-Asset-Foundry(资产工坊)/2-Showcase-作品展示.md",
     "2-Asset-Foundry(资产工坊)/1-Prototype-Projects-原型项目.md",
-    "2-Asset-Foundry(资产工坊)/MVP实验记录.md",
-    "3-Execution-Loop(执行循环)/00-Execution-Index.md.md",
-    "3-Execution-Loop(执行循环)/2-Connection-Ledger-人脉账本.md",
-    "3-Execution-Loop(执行循环)/1-Daily-Logbook-每日日志.md",
-    "3-Execution-Loop(执行循环)/0-Script-Planner-冲刺规划.md",
-    "3-Execution-Loop(执行循环)/2025-9-8.md",
-    "Templates/Weekly-Review.md.md",
+    "5-Knowledge-Garden(知识花园)/PX-01-Research/PX-01-经济模型分析.md.md",
+    "5-Knowledge-Garden(知识花园)/PX-01-Research/PX-01-实体与角色分析.md.md",
+    "5-Knowledge-Garden(知识花园)/PX-01-Research/PX-01-系统动力学分析.md.md",
+    "5-Knowledge-Garden(知识花园)/PX-01-Research/PX-01-假设与反证.md.md",
+    "5-Knowledge-Garden(知识花园)/PX-01-Research/PX-01-博弈论分析.md.md",
+    "5-Knowledge-Garden(知识花园)/PX-01-Research/PX-01-关键问题清单.md.md",
+    "2-Asset-Foundry(资产工坊)/PX-01 - 文献与案例库.md",
+    "0-Core-Principles(核心原则)/1-Qualitative-Goals-定性目标.md",
+    "readme.md",
+    "2-Asset-Foundry(资产工坊)/未命名.md",
+    "2-Asset-Foundry(资产工坊)/PX-01-Persecution Ecosystem-01-动力结构与经济模型分析.md.md",
+    "5-Knowledge-Garden(知识花园)/PX-01-Research",
+    "未命名",
+    "2-Asset-Foundry(资产工坊)/PX-01 - 分析过程笔记.md",
+    "2-Asset-Foundry(资产工坊)/Systems-Thinking.md",
+    "2-Asset-Foundry(资产工坊)/Economic-Modeling.md",
+    "2-Asset-Foundry(资产工坊)/Research-Methodologies.md",
+    "Templates/Prototype-Projects.md.md",
     "Templates/Daily-Log.md.md",
-    "Templates/Execution-Index.md.md",
-    "Templates/Zettelkasten-Index.md.md",
-    "6-Zettelkasten(卡片盒子)/原子想法.md",
-    "6-Zettelkasten(卡片盒子)/关于标签的思考.md",
+    "0-Core-Principles(核心原则)/0-Personal-Manifesto-个人宣言.md",
+    "0-Core-Principles(核心原则)/2-Quantitatiive-Targets-量化指标.md",
+    "1-Horizon-Scanning(视野扫描)/0-Opportunity-Redar-机会雷达.md",
+    "3-Execution-Loop(执行循环)/2-Connection-Ledger-人脉账本.md",
     "Templates"
   ]
 }
