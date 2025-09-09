@@ -14,9 +14,61 @@ LIMIT 5
 ```
 
 
+## 📈 现金流概况 (过去30天)
+```dataview
+TABLE WITHOUT ID
+	"→ 总收入" AS 类别,
+	sum(金额) AS 金额
+FROM "4-Intelligence-Dashboard"
+WHERE contains(tags, "#finance") AND 类型 = "收入"
+
+TABLE WITHOUT ID
+	"→ 总支出" AS 类别,
+	sum(金额) AS 金额
+FROM "4-Intelligence-Dashboard"
+WHERE contains(tags, "#finance") AND 类型 = "支出"
+```
 
 
+# 个人资金流分析仪表盘
 
+## 📈 现金流概况 (过去30天)
+```dataview
+TABLE WITHOUT ID
+	"→ 总收入" AS 类别,
+	sum(金额) AS 金额
+FROM "4-Intelligence-Dashboard"
+WHERE contains(tags, "#finance") AND 类型 = "收入" AND date(日期) >= date(now) - dur(30 days)
+GROUP BY 类型
+
+TABLE WITHOUT ID
+	"→ 总支出" AS 类别,
+	sum(金额) AS 金额
+FROM "4-Intelligence-Dashboard"
+WHERE contains(tags, "#finance") AND 类型 = "支出" AND date(日期) >= date(now) - dur(30 days)
+GROUP BY 类型
+```
+
+## 💸 支出结构分析 (消费行为洞察)
+```dataview
+TABLE WITHOUT ID
+	分类 AS "消费类别",
+	sum(金额) AS "金额",
+	round((sum(金额) / ({{支出总额}})) * 100) AS "占比%"
+FROM "4-Intelligence-Dashboard"
+WHERE contains(tags, "#finance") AND 类型 = "支出" AND date(日期) >= date(now) - dur(30 days)
+GROUP BY 分类
+SORT sum(金额) DESC
+```
+
+---
+
+## 📝 手动记账区 (确保格式绝对统一!)
+| 日期 | 项目 | 类型 | 分类 | 金额 | 支付方式 | 备注 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2024-05-28 | 购买电子书 | 支出 | 学习 | -59.00 | 支付宝 | 研究用 |
+| 2024-05-28 | 公众号打赏 | 收入 | 内容创造 | +200.00 | 微信 | 《金融科普》文章 |
+**标签：** `#finance`
 
 
 
