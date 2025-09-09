@@ -72,19 +72,24 @@ LIMIT 5
 TABLE file.name , file.folder
 LIMIT 10
 ```
+
+
 ```dataview
 TABLE file.name,file.folder
 WHERE file.name="text1"
 ```
+
 ```dataview
 TABLE file.name,file.folder
 FROM #research-question 
 ```
+
 ```dataview
 LIST tags
 WHERE tags
 LIMIT 20
 ```
+
 ```dataview
 TASK
 FROM "Research-Control-Center.md(研究控制中心)/PX-01-Research"
@@ -143,6 +148,7 @@ FROM #research-question
 SORT file.name
 LIMIT 10
 ```
+
 ```dataview
 TASK
 FROM "5-Knowledge-Garden(知识花园)/PX-01-Research"
@@ -191,6 +197,7 @@ TABLE file.ctime,优先级,下一步行动,tags
 FROM "5-Knowledge-Garden(知识花园)/PX-01-Research"
 WHERE 状态 = "调研中"
 ```
+
 ```dataview 
 TABLE 状态,下一步行动,tags
 FROM "5-Knowledge-Garden(知识花园)/PX-01-Research"
