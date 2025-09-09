@@ -31,7 +31,7 @@ SORT 截止日期 ASC
     -   [ ] [[竞争对手分析]]
 
 
-项目列表
-1. [[PX-01-Persecution Ecosystem-01-动力结构与经济模型分析]]
+项目列表====list
+1. [[PX-01-Persecution Ecosystem-01-动力结构与经济模型分析.md]]
 2. [[PX-01-经济复杂性研究实验室]]
 3. [[激励相容性知识社群实验]] 
