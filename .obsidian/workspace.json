@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-Execution-Loop(执行循环)/1-Daily-Logbook-每日日志.md",
-                "mode": "source",
+                "file": "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-02-问题研究区/01-💰-资金来源问题/1-🎯-核心研究.md.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-Daily-Logbook-每日日志"
+              "title": "1-🎯-核心研究.md"
             }
           },
           {
@@ -209,12 +209,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-Core-Principles(核心原则)/1-Qualitative-Goals-定性目标.md",
-                "mode": "source",
+                "file": "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-02-问题研究区/01-💰-资金来源问题/7-✅-结论报告.md.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-Qualitative-Goals-定性目标"
+              "title": "7-✅-结论报告.md"
             }
           },
           {
@@ -259,8 +259,7 @@
               "title": "1-Qualitative-Goals-定性目标"
             }
           }
-        ],
-        "currentTab": 14
+        ]
       }
     ],
     "direction": "vertical"
@@ -389,13 +388,39 @@
               "icon": "lucide-list",
               "title": "2-Connection-Ledger-人脉账本 的大纲"
             }
+          },
+          {
+            "id": "f4c4c02f20eb4b32",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "b642e6be76bc7590",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-02-问题研究区/01-💰-资金来源问题/1-🎯-核心研究.md.md"
+              },
+              "icon": "lucide-info",
+              "title": "1-🎯-核心研究.md的笔记属性"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -408,13 +433,22 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "b311d95a111593b0",
+  "active": "f7ad956081bc9ed8",
   "lastOpenFiles": [
+    "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-02-问题研究区/01-💰-资金来源问题/2-📁-数据收集.md.md",
+    "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-02-问题研究区/01-💰-资金来源问题/3-🗣️-访谈记录.md.md",
+    "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-02-问题研究区/01-💰-资金来源问题/5-📖-文献综述.md.md",
+    "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-02-问题研究区/01-💰-资金来源问题/6-📊-统计分析.md.md",
+    "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-02-问题研究区/01-💰-资金来源问题/7-✅-结论报告.md.md",
+    "3-Execution-Loop(执行循环)/1-Daily-Logbook-每日日志.md",
+    "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-02-问题研究区/01-💰-资金来源问题/1-🎯-核心研究.md.md",
+    "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-02-问题研究区/01-💰-资金来源问题/4-💡-洞察发现.md.md",
+    "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-01-control-center/🎯-总仪表盘.md.md",
+    "0-Core-Principles(核心原则)/1-Qualitative-Goals-定性目标.md",
     "1-Horizon-Scanning(视野扫描)/2-Focus-Areas-聚焦领域.md",
     "1-Horizon-Scanning(视野扫描)/1-Landscape-Analysis-生态分析.md",
     "1-Horizon-Scanning(视野扫描)/0-Opportunity-Redar-机会雷达.md",
     "0-Core-Principles(核心原则)/2-Quantitatiive-Targets-量化指标.md",
-    "0-Core-Principles(核心原则)/1-Qualitative-Goals-定性目标.md",
     "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-01-Controlcenter/PX-01-control-center.md",
     "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-01-Controlcenter/PX-file1.md",
     "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-02-问题研究区/10- 🏢-实体投资成本/🗣️-访谈记录.md.md",
@@ -427,15 +461,6 @@
     "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-02-问题研究区/09-🔮-核心动机分析/📁-数据收集.md.md",
     "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-02-问题研究区/09-🔮-核心动机分析/🎯-核心研究.md.md",
     "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-02-问题研究区/08-🎭-心理动机产业链/✅-结论报告.md.md",
-    "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-02-问题研究区/9-🔮-核心动机分析/未命名 7.md",
-    "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-02-问题研究区/09-🔮-核心动机分析/🗣️-访谈记录.md.md",
-    "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-02-问题研究区/09-🔮-核心动机分析/📖-文献综述.md.md",
-    "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-02-问题研究区/09-🔮-核心动机分析/📊-统计分析.md.md",
-    "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-02-问题研究区/09-🔮-核心动机分析/💡-洞察发现.md.md",
-    "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-02-问题研究区/09-🔮-核心动机分析/✅-结论报告.md.md",
-    "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-02-问题研究区/08-🎭-心理动机产业链/📊-统计分析.md.md",
-    "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-02-问题研究区/8-🎭-心理动机产业链/未命名 5.md",
-    "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-02-问题研究区/08-🎭-心理动机产业链/📁-数据收集.md.md",
     "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-02-问题研究区",
     "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-01-control-center",
     "5-Knowledge-Garden(知识花园)/PX-01-Research/Research-Conrtol-Center.md(研究控制中心)/PX-02-关键问题清单/PX-02-问题研究区/09-🔮-核心动机分析",
