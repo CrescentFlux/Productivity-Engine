@@ -2,11 +2,11 @@
 layout: catalog
 title: 知识库目录
 ---
+# 📚 知识库完全目录
 
-# 我的知识库
+此页面自动索引了仓库中的所有 Markdown 文档。点击任意标题将跳转到 GitHub 查看原始文件。
 
-以下是核心文件夹的快速入口：
+仓库地址：[CrescentFlux/Productivity-Engine](https://github.com/CrescentFlux/Productivity-Engine)
 
-## 5-Knowledge-Garden (知识花园)
-*   [A-Finance](/5-Knowledge-Garden(知识花园)/A-Finance/)
-*   [B-Troditional-Medicine](/5-Knowledge-Garden(知识花园)/B-Troditional-Medicine/)
+---
+*目录正在自动生成中...*
