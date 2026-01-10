@@ -23,8 +23,8 @@ title: CrescentFlux 的数字空间
 
 | 项目名 | 简介 | 直达链接 |
 | :--- | :--- | :--- |
-| **Project Alpha** | 一个解决XX问题的工具。 | [GitHub仓库](https://github.com/CrescentFlux/project-alpha) |
-| **Design Notes** | UI/UX设计碎片收集。 | [GitHub仓库](https://github.com/CrescentFlux/design-notes) |
+| **Project Alpha** | 一个解决问题的工具。 | [GitHub](https://github.com/CrescentFlux/project-alpha) |
+| **Design Notes** | UI/UX设计碎片收集。 | [GitHub](https://github.com/CrescentFlux/design-notes) |
 
 ---
 
