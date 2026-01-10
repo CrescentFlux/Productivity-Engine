@@ -18,17 +18,7 @@ title: CrescentFlux 的数字空间
 | **我的博客** | 个人深度文章与长篇思考的发布地。 | 🟢 已公开 | [访问博客](https://blog.crescentflux.com) |  [GitHub](https://github.com/CrescentFlux/Blog)|
 | **故事创作** | 故事与叙事的创作空间。 | 🟢 已公开 | [访问故事集](https://story.crescentflux.com) | [GitHub](https://github.com/CrescentFlux/STORY)|
 
-
----
-{% raw %}
-<h1>📚 生产力引擎 · 知识库目录</h1>
-<p>此页面自动索引了仓库中的所有 Markdown 文档。点击任意标题将跳转到 GitHub 查看原始文件。</p>
-<p>仓库地址：<a href="https://github.com/CrescentFlux/Productivity-Engine">CrescentFlux/Productivity-Engine</a></p>
-<hr>
-{% endraw %}
----
-
-## 🧩 其他项目与实验
+## 🧩 其他项目
 这里是一些工具、实验和碎片思考。
 
 | 项目名 | 简介 | 直达链接 |
