@@ -4,8 +4,7 @@ title: 完整目录
 ---
 
 {% comment %} 
-  以下Liquid代码会自动扫描你的仓库，生成目录树
-  你不需要修改它，它会自动运行
+
 {% endcomment %}
 
 {% assign all_pages = site.pages | sort: 'path' %}
