@@ -14,13 +14,13 @@ title: CrescentFlux 的数字空间
 
 | 项目 | 简介 | 状态 | 直达链接 |
 | :--- | :--- | :--- | :--- |
-| **生产力引擎** | 关于效率、学习与底层思考的系统化知识库。 | 🟢 已公开 | [进入知识库](/)*（下方自动目录）* |
+| **生产力引擎** | 关于效率、学习与底层思考的系统化知识库。 | 🟢 已公开 | [进入知识库](/)|
 | **我的博客** | 个人深度文章与长篇思考的发布地。 | 🟡 筹备中 | `即将公开` |
 | *(其他核心项目)* | | | |
 
 ---
 {% raw %}
-<h1>📚 知识库完全目录</h1>
+<h1>📚 生产力引擎 · 知识库目录</h1>
 <p>此页面自动索引了仓库中的所有 Markdown 文档。点击任意标题将跳转到 GitHub 查看原始文件。</p>
 <p>仓库地址：<a href="https://github.com/CrescentFlux/Productivity-Engine">CrescentFlux/Productivity-Engine</a></p>
 <hr>
@@ -34,7 +34,6 @@ title: CrescentFlux 的数字空间
 | :--- | :--- | :--- |
 | **Project Alpha** | 一个解决XX问题的工具。 | [GitHub仓库](https://github.com/CrescentFlux/project-alpha) |
 | **Design Notes** | UI/UX设计碎片收集。 | [GitHub仓库](https://github.com/CrescentFlux/design-notes) |
-| *(你可以继续添加)* | | |
 
 ---
 
