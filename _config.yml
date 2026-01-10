@@ -1,0 +1,10 @@
+title: "我的知识引擎" 
+description: "这里是 crescentflux 的思考与学习笔记" 
+baseurl: "" 
+url: "https://www.crescentflux.com" 
+theme: minima 
+
+# 构建设置
+markdown: kramdown
+permalink: pretty # 让文章链接看起来更清晰，如 /2024/05/20/文章标题/
+
