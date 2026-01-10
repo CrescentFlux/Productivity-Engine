@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; max-width: 900px; margin: 40px auto; padding: 0 20px; }
+        h1 { border-bottom: 3px solid #4CAF50; padding-bottom: 10px; }
+        .folder { margin: 25px 0; padding-left: 10px; border-left: 3px solid #ddd; }
+        .folder-name { font-size: 1.4em; font-weight: bold; color: #2c3e50; margin-bottom: 10px; }
+        .file-list { list-style: none; padding-left: 20px; }
+        .file-item { margin: 8px 0; }
+        .file-link { text-decoration: none; color: #3498db; padding: 3px 6px; border-radius: 3px; }
+        .file-link:hover { background-color: #f0f7ff; }
+        .github-icon { width: 16px; height: 16px; vertical-align: middle; margin-right: 5px; }
+    </style>
+</head>
+<body>
+    <h1>📚 知识库完全目录</h1>
+    <p>此页面自动索引了仓库中的所有 Markdown 文档。点击任意标题将跳转到 GitHub 查看原始文件。</p>
+    <p>仓库地址：<a href="https://github.com/CrescentFlux/Productivity-Engine">CrescentFlux/Productivity-Engine</a></p>
+    <hr>
+
+    <!-- 这里是核心：脚本将在此处生成目录 -->
+    {{ content }}
+
+    <footer style="margin-top: 50px; color: #777; font-size: 0.9em;">
+        <p>本目录由 Jekyll 自动生成，最后更新于: {{ site.time | date: "%Y-%m-%d %H:%M" }}</p>
+    </footer>
+</body>
+</html>
