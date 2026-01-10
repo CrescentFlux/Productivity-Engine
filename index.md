@@ -15,7 +15,8 @@ title: CrescentFlux 的数字空间
 | 项目 | 简介 | 状态 | 直达链接 |
 | :--- | :--- | :--- | :--- |
 | **生产力引擎** | 关于效率、学习与底层思考的系统化知识库。 | 🟢 已公开 | [进入知识库](https://www.crescentflux.com)|
-| **我的博客** | 个人深度文章与长篇思考的发布地。 | 🟢 已公开 | [访问博客](https://blog.crescentflux.com) | |
+| **我的博客** | 个人深度文章与长篇思考的发布地。 | 🟢 已公开 | [访问博客](https://blog.crescentflux.com) | 
+| **故事创作** | 故事与叙事的创作空间。 | 🟢 已公开 | [访问博客](https://story.crescentflux.com) | 
 
 
 ---
