@@ -19,10 +19,12 @@ title: CrescentFlux 的数字空间
 | *(其他核心项目)* | | | |
 
 ---
-<h1> 📚 生产力引擎 · 知识库目录</h1>
-    <p>此页面自动索引了仓库中的所有 Markdown 文档。点击任意标题将跳转到 GitHub 查看原始文件。</p>
-    <p>仓库地址：<a href="https://github.com/CrescentFlux/Productivity-Engine">CrescentFlux/Productivity-Engine</a></p>
-    <hr>
+{% raw %}
+<h1>📚 知识库完全目录</h1>
+<p>此页面自动索引了仓库中的所有 Markdown 文档。点击任意标题将跳转到 GitHub 查看原始文件。</p>
+<p>仓库地址：<a href="https://github.com/CrescentFlux/Productivity-Engine">CrescentFlux/Productivity-Engine</a></p>
+<hr>
+{% endraw %}
 ---
 
 ## 🧩 其他项目与实验
