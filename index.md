@@ -5,9 +5,8 @@ title: CrescentFlux 的数字空间
 
 # 🌌 My Digital Hub 我的数字空间
 
-这里是我所有公开项目的入口。每个链接都会带你进入一个独立的知识站点。<br>
-Here is the gateway to all my public projects. Each link leads to an independent knowledge site.
----
+这里是我所有公开项目的入口。每个链接都会带你进入一个独立的知识站点。<br>Here is the gateway to all my public projects. Each link leads to an independent knowledge site.
+
 
 ## 📝Core Projects 核心项目
 以下是我投入最深、持续更新的项目。<br>Below are my most invested and continuously updated projects
