@@ -17,14 +17,6 @@ title: CrescentFlux 的数字空间
 | **My Blog**<br>**我的博客** |  A place for personal in-depth articles and long-form thinking. / 个人深度文章与长篇思考的发布地。 | 🟢 Public /已公开 | [✍️访问博客](https://blog.crescentflux.com) |  [GitHub](https://github.com/CrescentFlux/Blog)|
 | **Story Studio**<br>**故事创作** |  A creative space for stories and narratives. /故事与叙事的创作空间。 | 🟢 Public /已公开 | [📖访问故事集](https://story.crescentflux.com) | [GitHub](https://github.com/CrescentFlux/STORY)|
 
-## 🧩 Other Projects /其他项目
-这里是一些工具、实验和碎片思考。<br>Here are some tools, experiments, and fragmented thoughts. 
-
-| 项目名 / Project Name | 简介/ Description | 直达链接 / Link |
-| :--- | :--- | :--- |
-| **Project Alpha** | A tool to solve problems. /一个解决问题的工具。 | [GitHub](https://github.com/CrescentFlux/project-alpha) |
-| **Design Notes** | A collection of UI/UX design fragments. / UI/UX设计碎片收集。 | [GitHub](https://github.com/CrescentFlux/design-notes) |
-
 ---
 
 ## 🔗 All Links /所有链接
