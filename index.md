@@ -4,6 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CrescentFlux Digital Hub</title>
+    /* ===== 隐藏一切非你内容的东西 ===== */
+/* 1. 隐藏DOCTYPE可能产生的空白 */
+html::before, body::before {
+    display: none !important;
+    content: none !important;
+}
+
+/* 2. 隐藏所有非.hub-container的直接子元素 */
+body > *:not(.hub-container) {
+    display: none !important;
+    height: 0 !important;
+    min-height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+}
+
+/* 3. 强制你的容器占据全屏 */
+.hub-container {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    min-height: 100vh !important;
+    margin: 0 !important;
+    padding: 40px 20px !important;
+    z-index: 9999 !important;
+    background: rgba(15, 25, 45, 0.95) !important;
+}
+
+/* 4. 确保html/body没有边距 */
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative !important;
+    min-height: 100vh !important;
+    overflow-x: hidden !important;
+}
     <style>
         nav, header, .navigation, .navbar, .site-header { display: none !important; }
         /* 重置 */
