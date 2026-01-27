@@ -13,9 +13,9 @@ title: CrescentFlux 的数字空间
 
 | 项目/ Project | 简介 / Description| 状态/ Status | 直达链接  / Visit |  源码地址 / Source|
 | :--- | :--- | :--- | :--- | :--- |
-| **Productivity Engine**<br>**生产力引擎** | A systematic knowledge base on efficiency, learning, and first-principles thinking. / 关于效率、学习与底层思考的系统化知识库。 | 🟢Public / 已公开 | [📈访问知识库](https://www.crescentflux.com)| [GitHub](https://github.com/CrescentFlux/Productivity-Engine) |
-| **My Blog**<br>**我的博客** |  A place for personal in-depth articles and long-form thinking. / 个人深度文章与长篇思考的发布地。 | 🟢 Public /已公开 | [✍️访问博客](https://blog.crescentflux.com) |  [GitHub](https://github.com/CrescentFlux/Blog)|
-| **Story Studio**<br>**故事创作** |  A creative space for stories and narratives. /故事与叙事的创作空间。 | 🟢 Public /已公开 | [📖访问故事集](https://story.crescentflux.com) | [GitHub](https://github.com/CrescentFlux/STORY)|
+| **Productivity Engine**/**生产力引擎** | A systematic knowledge base on efficiency, learning, and first-principles thinking. / 关于效率、学习与底层思考的系统化知识库。 | 🟢Public / 已公开 | [📈访问知识库](https://www.crescentflux.com)| [GitHub](https://github.com/CrescentFlux/Productivity-Engine) |
+| **My Blog**/**我的博客** |  A place for personal in-depth articles and long-form thinking. / 个人深度文章与长篇思考的发布地。 | 🟢 Public /已公开 | [✍️访问博客](https://blog.crescentflux.com) |  [GitHub](https://github.com/CrescentFlux/Blog)|
+| **Story Studio**/**故事创作** |  A creative space for stories and narratives. /故事与叙事的创作空间。 | 🟢 Public /已公开 | [📖访问故事集](https://story.crescentflux.com) | [GitHub](https://github.com/CrescentFlux/STORY)|
 
 
 
