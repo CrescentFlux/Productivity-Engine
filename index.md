@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CrescentFlux Digital Hub</title>
-    /* ===== 隐藏一切非你内容的东西 ===== */
+    <style>
+          /* ===== 隐藏一切非你内容的东西 ===== */
 /* 1. 隐藏DOCTYPE可能产生的空白 */
 html::before, body::before {
     display: none !important;
@@ -42,7 +43,6 @@ html, body {
     min-height: 100vh !important;
     overflow-x: hidden !important;
 }
-    <style>
         nav, header, .navigation, .navbar, .site-header { display: none !important; }
         /* 重置 */
         * { margin: 0; padding: 0; box-sizing: border-box; }
