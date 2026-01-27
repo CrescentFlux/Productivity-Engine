@@ -5,17 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CrescentFlux Digital Hub</title>
     <style>
-        <style>
-/* 魔法：让导航消失 */
-body > :first-child,
-body > :nth-child(2) {
-    display: none !important;
-    height: 0 !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    border: none !important;
-}
-</style>
+        nav, header, .navigation, .navbar, .site-header { display: none !important; }
         /* 重置 */
         * { margin: 0; padding: 0; box-sizing: border-box; }
         
