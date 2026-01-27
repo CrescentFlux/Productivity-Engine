@@ -1,5 +1,5 @@
-title: ""
+title: " "
 description: "CrescentFlux 的公开知识库索引"
 url: "https://www.crescentflux.com"
 markdown: kramdown
-
+nav: false          # 关键！禁用导航
