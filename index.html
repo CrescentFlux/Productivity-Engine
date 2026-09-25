@@ -1,70 +1,215 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CrescentFlux Digital Hub</title>
-    <style>
-        /* ====== 所有 CSS 都放这里 ====== */
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CrescentFlux Digital Hub</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { height: 100%; overflow-x: hidden; }
 
-        html, body { height: 100%; overflow-x: hidden; }
+/* 背景层：两张照片交叉淡入 */
+.bg-layer {
+    position: fixed;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -2;
+}
+.bg-layer.layer-1 {
+    background-image: url('images/2026-9-25.jpg');
+    animation: fadeA 24s ease-in-out infinite;
+}
+.bg-layer.layer-2 {
+    background-image: url('images/2026-9-25-2.jpg');
+    animation: fadeB 24s ease-in-out infinite;
+}
+@keyframes fadeA {
+    0%, 40% { opacity: 1; }
+    50%, 90% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes fadeB {
+    0%, 40% { opacity: 0; }
+    50%, 90% { opacity: 1; }
+    100% { opacity: 0; }
+}
 
-        .bg-layer {
-            position: fixed;
-            inset: 0;
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            z-index: -2;
-        }
+body {
+    background: #0a192f;
+    color: #e6f1ff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    line-height: 1.7;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
 
-        .bg-layer.layer-1 {
-            background-image: url('images/2026-9-25.jpg');
-            animation: fadeA 24s ease-in-out infinite;
-        }
+.hub-container {
+    max-width: 1100px;
+    width: 100%;
+    background: rgba(10, 15, 30, 0.65);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}
 
-        .bg-layer.layer-2 {
-            background-image: url('images/2026-9-25-2.jpg');
-            animation: fadeB 24s ease-in-out infinite;
-        }
+h1 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #64d9fe, #48bbff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
-        @keyframes fadeA {
-            0%, 40% { opacity: 1; }
-            50%, 90% { opacity: 0; }
-            100% { opacity: 1; }
-        }
+.subtitle {
+    text-align: center;
+    color: #a5b4cb;
+    margin-bottom: 40px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
 
-        @keyframes fadeB {
-            0%, 40% { opacity: 0; }
-            50%, 90% { opacity: 1; }
-            100% { opacity: 0; }
-        }
+.section-title {
+    color: #64d9fe;
+    border-bottom: 2px solid rgba(100, 217, 254, 0.3);
+    padding-bottom: 10px;
+    margin: 40px 0 25px;
+    font-size: 1.8rem;
+}
 
-        body {
-            background: #0a192f;
-            color: #e6f1ff;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            line-height: 1.7;
-            min-height: 100vh;
-            padding: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-        }
+.intro-text {
+    color: #a5b4cb;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 1.05rem;
+}
 
-        .hub-container {
-            max-width: 1100px;
-            width: 100%;
-            background: rgba(10, 15, 30, 0.65);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            padding: 40px;
-            border: 1px solid rgba(255, 255, 255, 0.15);
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
-            margin: 0 auto;
-        }
-    </style>
+.projects-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0 40px;
+    background: rgba(20, 30, 50, 0.9);
+    border: 1px solid rgba(100, 217, 254, 0.2);
+    border-radius: 12px;
+    overflow: hidden;
+}
+.projects-table th {
+    background: rgba(30, 41, 59, 0.95);
+    color: #cbd5e1;
+    font-weight: 600;
+    padding: 18px 15px;
+    text-align: left;
+    border-bottom: 2px solid rgba(100, 217, 254, 0.2);
+}
+.projects-table td {
+    padding: 18px 15px;
+    color: #a5b4cb;
+    border-bottom: 1px solid rgba(100, 217, 254, 0.1);
+    background: rgba(25, 35, 55, 0.8);
+}
+.projects-table tr:nth-child(even) td {
+    background: rgba(30, 40, 60, 0.8);
+}
+.projects-table tr:hover td {
+    background: rgba(40, 50, 70, 0.9);
+}
+
+.project-name {
+    color: #dbeafe;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 6px 12px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: #e2e8f0;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.action-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background: rgba(100, 217, 254, 0.1);
+    border: 1px solid rgba(100, 217, 254, 0.3);
+    border-radius: 8px;
+    color: #64d9fe;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s;
+    min-width: 120px;
+    text-align: center;
+}
+.action-btn:hover {
+    background: rgba(100, 217, 254, 0.2);
+    transform: translateY(-2px);
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(100, 217, 254, 0.15);
+}
+
+.divider {
+    border: none;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(100,217,254,0.3), transparent);
+    margin: 40px 0;
+}
+
+.links-list {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 4px solid #64d9fe;
+    list-style: none;
+    margin: 20px 0;
+}
+.links-list li {
+    padding: 10px 0;
+    color: #a5b4cb;
+    font-size: 1.05rem;
+}
+.links-list a {
+    color: #64d9fe;
+    text-decoration: none;
+}
+.links-list a:hover {
+    color: #48bbff;
+    text-decoration: underline;
+}
+
+.top-fixer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: #0a192f;
+    z-index: 9999;
+}
+
+@media (max-width: 768px) {
+    body { padding: 10px; }
+    .hub-container { padding: 25px; border-radius: 15px; }
+    h1 { font-size: 2.2rem; }
+    .section-title { font-size: 1.5rem; }
+    .projects-table { display: block; overflow-x: auto; }
+    .projects-table th, .projects-table td { padding: 12px 10px; font-size: 0.9rem; }
+    .action-btn { min-width: 100px; padding: 6px 12px; }
+}
+</style>
 </head>
 <body>
     <!-- 两张背景照片层 -->
@@ -76,223 +221,17 @@
 
     <div class="hub-container">
         <h1>🌌 My Digital Hub 我的数字空间</h1>
-        <!-- 其余内容保持不变 -->
-    </div>
-</body>
-</html>
-    
-    /* ====== 标题 ====== */
-    h1 {
-        text-align: center;
-        font-size: 2.8rem;
-        margin-bottom: 20px;
-        background: linear-gradient(90deg, #64d9fe, #48bbff);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    
-    .subtitle {
-        text-align: center;
-        color: #a5b4cb;
-        margin-bottom: 40px;
-        font-size: 1.1rem;
-        line-height: 1.6;
-    }
-    
-    /* ====== 章节标题 ====== */
-    .section-title {
-        color: #64d9fe;
-        border-bottom: 2px solid rgba(100, 217, 254, 0.3);
-        padding-bottom: 10px;
-        margin: 40px 0 25px;
-        font-size: 1.8rem;
-    }
-    
-    /* ====== 段落 ====== */
-    .intro-text {
-        color: #a5b4cb;
-        margin-bottom: 30px;
-        text-align: left;
-        font-size: 1.05rem;
-    }
-    
-    /* ====== 表格 ====== */
-    .projects-table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 30px 0 40px;
-        background: rgba(20, 30, 50, 0.9);
-        border: 1px solid rgba(100, 217, 254, 0.2);
-        border-radius: 12px;
-        overflow: hidden;
-    }
-    
-    .projects-table th {
-        background: rgba(30, 41, 59, 0.95);
-        color: #cbd5e1;
-        font-weight: 600;
-        padding: 18px 15px;
-        text-align: left;
-        border-bottom: 2px solid rgba(100, 217, 254, 0.2);
-    }
-    
-    .projects-table td {
-        padding: 18px 15px;
-        color: #a5b4cb;
-        border-bottom: 1px solid rgba(100, 217, 254, 0.1);
-        background: rgba(25, 35, 55, 0.8);
-    }
-    
-    .projects-table tr:nth-child(even) td {
-        background: rgba(30, 40, 60, 0.8);
-    }
-    
-    .projects-table tr:hover td {
-        background: rgba(40, 50, 70, 0.9);
-    }
-    
-    /* ====== 项目名称 ====== */
-    .project-name {
-        color: #dbeafe;
-        font-weight: 600;
-        font-size: 1.1rem;
-        line-height: 1.5;
-    }
-    
-    /* ====== 状态徽章 ====== */
-    .status-badge {
-        display: inline-block;
-        padding: 6px 12px;
-        background: rgba(255, 255, 255, 0.08);
-        border-radius: 8px;
-        border: 1px solid rgba(255, 255, 255, 0.12);
-        color: #e2e8f0;
-        font-weight: 500;
-        font-size: 0.9rem;
-    }
-    
-    /* ====== 按钮 ====== */
-    .action-btn {
-        display: inline-block;
-        padding: 8px 16px;
-        background: rgba(100, 217, 254, 0.1);
-        border: 1px solid rgba(100, 217, 254, 0.3);
-        border-radius: 8px;
-        color: #64d9fe;
-        font-weight: 500;
-        text-decoration: none;
-        transition: all 0.3s;
-        min-width: 120px;
-        text-align: center;
-    }
-    
-    .action-btn:hover {
-        background: rgba(100, 217, 254, 0.2);
-        transform: translateY(-2px);
-        text-decoration: none;
-        box-shadow: 0 5px 15px rgba(100, 217, 254, 0.15);
-    }
-    
-    /* ====== 分隔线 ====== */
-    .divider {
-        border: none;
-        height: 1px;
-        background: linear-gradient(90deg, transparent, rgba(100,217,254,0.3), transparent);
-        margin: 40px 0;
-    }
-    
-    /* ====== 链接列表 ====== */
-    .links-list {
-        background: rgba(255, 255, 255, 0.05);
-        padding: 25px;
-        border-radius: 10px;
-        border-left: 4px solid #64d9fe;
-        list-style: none;
-        margin: 20px 0;
-    }
-    
-    .links-list li {
-        padding: 10px 0;
-        color: #a5b4cb;
-        font-size: 1.05rem;
-    }
-    
-    .links-list a {
-        color: #64d9fe;
-        text-decoration: none;
-    }
-    
-    .links-list a:hover {
-        color: #48bbff;
-        text-decoration: underline;
-    }
-    
-    /* ====== 响应式设计 ====== */
-    @media (max-width: 768px) {
-        body {
-            padding: 10px;
-        }
-        
-        .hub-container {
-            padding: 25px;
-            border-radius: 15px;
-        }
-        
-        h1 {
-            font-size: 2.2rem;
-        }
-        
-        .section-title {
-            font-size: 1.5rem;
-        }
-        
-        .projects-table {
-            display: block;
-            overflow-x: auto;
-        }
-        
-        .projects-table th,
-        .projects-table td {
-            padding: 12px 10px;
-            font-size: 0.9rem;
-        }
-        
-        .action-btn {
-            min-width: 100px;
-            padding: 6px 12px;
-        }
-    }
-    
-    /* ====== 确保没有白线 ====== */
-    .top-fixer {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 5px;
-        background: #0a192f;
-        z-index: 9999;
-    }
-    </style>
-</head>
-<body>
-    <!-- 顶部修复白线 -->
-    <div class="top-fixer"></div>
-    
-    <div class="hub-container">
-        <h1>🌌 My Digital Hub 我的数字空间</h1>
         <p class="subtitle">
             这里是我所有公开项目的入口。每个链接都会带你进入一个独立的知识站点。<br>
             Here is the gateway to all my public projects. Each link leads to an independent knowledge site.
         </p>
-        
+
         <h2 class="section-title">📝 Core Projects 核心项目</h2>
         <p class="intro-text">
             以下是我投入最深、持续更新的项目。<br>
             Below are my most invested and continuously updated projects.
         </p>
-        
+
         <table class="projects-table">
             <thead>
                 <tr>
@@ -305,46 +244,31 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>
-                        <div class="project-name">Productivity Engine<br>生产力引擎</div>
-                    </td>
-                    <td>
-                        A systematic knowledge base on efficiency, learning, and first-principles thinking.<br>
-                        关于效率、学习与底层思考的系统化知识库。
-                    </td>
+                    <td><div class="project-name">Productivity Engine<br>生产力引擎</div></td>
+                    <td>A systematic knowledge base on efficiency, learning, and first-principles thinking.<br>关于效率、学习与底层思考的系统化知识库。</td>
                     <td><span class="status-badge">🟢 Public / 已公开</span></td>
                     <td><a href="https://www.crescentflux.com" class="action-btn">📈 访问知识库</a></td>
                     <td><a href="https://github.com/CrescentFlux/Productivity-Engine" class="action-btn">GitHub</a></td>
                 </tr>
                 <tr>
-                    <td>
-                        <div class="project-name">My Blog<br>我的博客</div>
-                    </td>
-                    <td>
-                        A place for personal in-depth articles and long-form thinking.<br>
-                        个人深度文章与长篇思考的发布地。
-                    </td>
+                    <td><div class="project-name">My Blog<br>我的博客</div></td>
+                    <td>A place for personal in-depth articles and long-form thinking.<br>个人深度文章与长篇思考的发布地。</td>
                     <td><span class="status-badge">🟢 Public / 已公开</span></td>
                     <td><a href="https://blog.crescentflux.com" class="action-btn">✍️ 访问博客</a></td>
                     <td><a href="https://github.com/CrescentFlux/Blog" class="action-btn">GitHub</a></td>
                 </tr>
                 <tr>
-                    <td>
-                        <div class="project-name">Story Studio<br>故事创作</div>
-                    </td>
-                    <td>
-                        A creative space for stories and narratives.<br>
-                        故事与叙事的创作空间。
-                    </td>
+                    <td><div class="project-name">Story Studio<br>故事创作</div></td>
+                    <td>A creative space for stories and narratives.<br>故事与叙事的创作空间。</td>
                     <td><span class="status-badge">🟢 Public / 已公开</span></td>
                     <td><a href="https://story.crescentflux.com" class="action-btn">📖 访问故事集</a></td>
                     <td><a href="https://github.com/CrescentFlux/STORY" class="action-btn">GitHub</a></td>
                 </tr>
             </tbody>
         </table>
-        
+
         <div class="divider"></div>
-        
+
         <h2 class="section-title">🔗 All Links / 所有链接</h2>
         <ul class="links-list">
             <li>GitHub 主页：<a href="https://github.com/CrescentFlux">https://github.com/CrescentFlux</a></li>
